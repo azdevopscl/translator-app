@@ -17,9 +17,9 @@ def index_post():
     target_language = request.form['language']
 
     # Load the values from .env
-    key = os.environ['KEY']
-    endpoint = os.environ['ENDPOINT']
-    location = os.environ['LOCATION']
+    key = bf4d8a42401c4064a91e9065d5814ede
+    endpoint = https://api.cognitive.microsofttranslator.com/
+    location = eastus
 
     # Indicate that we want to translate and the API version (3.0) and the target language
     path = '/translate?api-version=3.0'
